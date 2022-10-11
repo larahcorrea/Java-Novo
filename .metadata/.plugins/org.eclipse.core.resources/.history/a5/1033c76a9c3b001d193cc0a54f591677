@@ -1,0 +1,29 @@
+package poo;
+
+import java.util.Scanner;
+
+public class Ex53 {
+	Scanner ler = new Scanner (System.in);
+	
+	Cliente c = new Cliente();
+	
+	Cliente[]listaClientes = new Cliente[5];
+	 
+	for ( int i= 0; i<=5; i++){
+		
+		System.out.println("Digite o Id  ");
+		c.id = ler.nextInt();
+		
+		System.out.println("Digite o nome  ");
+		c.nome = ler.next();
+		
+		System.out.println("Digite a idade  ");
+		c.idade = ler.nextInt();
+				
+		System.out.println("Digite o email  ");
+		c.email = ler.next();
+		
+	}
+	
+
+}}

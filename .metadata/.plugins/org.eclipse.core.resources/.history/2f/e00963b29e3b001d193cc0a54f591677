@@ -1,0 +1,48 @@
+package poo;
+
+import java.util.Scanner;
+
+public class ex52 {
+
+	public static void main(String[] args) {
+		
+Scanner ler = new Scanner (System.in);
+
+	Produto[] listaProduto = new Produto [10];
+	
+	for (int i=0; i<=10 ; i++) {
+		
+		Produto p = new Produto();
+		
+		
+		System.out.printf("Digite o Id  ");
+		p.id = ler.nextInt();
+		
+		System.out.printf("Digite a Descrição  ");
+		p.descricao = ler.next();
+		
+		System.out.printf("Digite o valor  ");
+		p.valor = ler.nextDouble();
+		
+		System.out.printf("Digite a quantidade  ");
+		p.quantidade = ler.nextDouble();
+		
+		listaProduto[i] = p;
+		if (p.valor < 100) {
+			
+			System.out.println("Id  " + listaProduto[i].id);
+			System.out.println("Id  " + listaProduto[i].descricao);
+			System.out.println("Id  " + listaProduto[i].valor);
+			System.out.println("Id  " + listaProduto[i].quantidade);
+			 
+		}
+	
+		}
+	
+	
+	
+	
+	
+	}
+
+}

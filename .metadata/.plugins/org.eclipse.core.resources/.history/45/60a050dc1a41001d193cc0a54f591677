@@ -1,0 +1,37 @@
+package Ex8;
+
+import java.io.ObjectInputFilter.Config;
+
+import ex54.Dependente;
+
+public class Cliente {
+	
+	public int id;
+	public String nome;
+	public int idade;
+	public String email;
+	public ContaBancaria cb;
+
+	
+	
+	Cliente(){
+		
+	}
+	 
+	Cliente (int id, String nome, int idade,String email, ContaBancaria cb){
+		this.id = id;
+		this.nome = nome;
+		this.email = email;
+		this.cb = cb;
+	}
+	public void atualizarEmail(String novoEmail) {
+		this.email = novoEmail;
+	}
+	public String exibirDadosBanco() {
+		return "Agencia: "+ this.cb.agencia + " - Número: " + this.cb.numero + " - Saldo: " + this.cb.saldo;
+	
+
+
+}
+
+}

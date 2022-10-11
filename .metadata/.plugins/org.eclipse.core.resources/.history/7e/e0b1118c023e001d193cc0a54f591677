@@ -1,0 +1,25 @@
+package poo;
+
+import java.util.Scanner;
+
+public class Ex51W {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner (System.in);
+		
+		Cliente listaCliente = new Cliente [5];
+		
+		Cliente c = new Cliente ();
+	
+		
+		while (i<5) {
+			
+			System.out.println("Digite ");
+			
+			}
+		
+		
+		
+	}
+
+}
